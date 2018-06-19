@@ -1,0 +1,436 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+
+.topbar ul li {
+    display: inline-block;
+    padding: 0px 10px 0px 0px;
+}
+
+
+.topbar ul li a{
+    color: crimson;
+    font: Arial;
+    font-size: 20px;
+    padding: 11px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+/*.topbar ul li a:hover{
+    color: darkgrey;
+}*/
+
+.btn {
+    margin: 23px 35px 0px 35px;
+    background-color: crimson;
+    color: white;
+    font-family: prompt;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+
+.dropdown-menu-1 {
+    width: 0px;
+    left:23px;
+    background-color: black;
+    text-align: center;
+    border-radius: 35px;
+}
+
+.dropdown-menu-3 {
+    width: 0px;
+    left:7px;
+    background-color: black;
+    text-align: center;
+    border-radius: 35px;
+}
+
+.row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.topbar{
+    background: linear-gradient(180deg,rgba(0,0,12,.9),rgba(0,0,12,.9) 50%,transparent);
+    width: 100%;
+    position: absolute;
+    height: 150px;
+}
+.topimage img{
+    height:100%;
+    width: 100%
+}
+.wrapper  {
+    position: absolute;
+    text-align: center;
+    top: 314px;
+    left: 534px;
+}
+.description{
+    display: table-cell;
+    vertical-align: middle;
+}
+.description span{
+    font-size: 67px;
+    font-weight: bold;
+    color: crimson;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.description h1{
+    font-size: 30px;
+    letter-spacing: 3px;
+    position: absolute;
+    z-index: 100;
+    color: lightcoral;
+    font-weight: bold;
+}
+
+.carousel-inner .item img{
+    width: 100%;
+    height: 700px;
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.midbar ul li{
+    display: inline-block;
+    padding: 22px;
+}
+.midbar ul li a{
+    color: darkgrey;
+    font: Arial;
+    font-size: 20px;
+    padding: 30px;
+    text-decoration: none;
+}
+.midbar ul li a:hover{
+    color:white;
+}
+.slogan h1{
+    font-size: 47px;
+    padding: 99px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-weight: 400;
+    color: grey;
+}
+.slogan1 span{
+    font-size: 22px;
+    color: white;
+    padding-left: 157px;
+    padding-top: 0px;
+
+}
+
+.table tr{
+    font-size: larger;
+    font-size: 20px;
+    color: white;
+}
+.flame1 img {
+    height: 47px;
+    left: 50px;
+    width: 56px;
+    position: absolute;
+    border-top: 15px;
+}
+.div1 img{
+    height: 500px;
+    width: 500px;
+    padding:38px;
+    border:40px outset orangered;
+
+}
+.descriptionn span{
+    font-size: 30px;
+    padding: 10px 30px;
+    font-family: cursive;
+    color: orangered;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.div1 img:hover img{
+    border:40px outset darkblue;
+}
+
+.div2 img{
+    height: 500px;
+    width: 500px;
+    padding:38px;
+    border:40px outset orangered;
+
+}
+.desc span{
+    font-size: 30px;
+    padding: 10px 30px;
+    font-family: cursive;
+    color: orangered;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.div2 img:hover{
+    border:40px outset darkblue;
+}
+.table2 span{
+    font-size: large;
+    color: white;
+}
+.table2 tr td{
+    padding: 0;
+    font-size: 60px;
+    color: orange;
+    padding: 15px;
+    font-weight: bold;
+
+}
+.imagess img{
+   height: 100px;
+}
+#slider img{
+    height: 783px;
+    width: 1349px;
+
+}
+
+.footer{
+    height: 235px;
+    padding-top: 1px;
+}
+
+
+.footer .text{
+    margin-left: 30%;
+    text-align: inherit;
+    margin-top: 5%;
+
+}
+
+.footer ul li {
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+    font-size: 24px;
+    font-family: garamond;
+    letter-spacing: 2px;
+
+}
+
+.icon{
+    margin-left: 32%;
+    margin-top: 2%;
+
+}
+.icon ul li{
+
+    padding: 0px;
+}
+
+.icon a{
+    color: white;
+    font-size: 60px;
+
+}
+
+.icon .fa-facebook-square {
+    color: #3b5998;
+}
+
+.icon .fa-twitter-square{
+    color: #76BCF1;
+}
+
+.icon .fa-youtube-square{
+    color: #bb0000;
+}
+
+.icon .fa-instagram{
+    color: #9A3CB6;
+}
+
+.icon .fa-tumblr-square{
+    color: #36465d;
+}
+.icon .fa-google-plus-square{
+    color: #d34836;
+}
+
+.icon .fa-vimeo-square{
+    color: #1AB7EA;
+}
+
+@media(max-width: 1200px){
+    .topbar ul li a{
+        padding: 11px;
+        font-size: 20px;
+    }
+    .midbar ul li{
+        padding: 20px;
+    }
+    .btn{
+        margin: 23px 11px 0px 31px;
+    }
+    .description span {
+        left: -110px;
+        position: absolute;
+        top: -84px;
+    }
+    .description h1{
+        left: -39px;
+        top: -6px;
+
+    }
+    .midbar ul li {
+        padding: 32px 27px 22px 0px;
+    }
+}
+
+@media(max-width: 992px){
+    .topbar ul li a{
+        padding: 11px;
+        font-size: 18px;
+    }
+    .midbar ul li a{
+        padding: 25px;
+        font-size: 18px;
+    }
+    .btn {
+        margin: 23px -22px 0px 26px;
+    }
+    .description span{
+        left: -151px;
+        position: absolute;
+        top: -100px;
+
+    }
+    .description h1{
+        left: -82px;
+        top: -12px;
+
+    }
+    .midbar ul li {
+        padding: 29px 7px 26px 0px;
+    }
+    .footer .text {
+        margin-left: 23%;
+    }
+    .icon {
+        margin-left: 26%;
+        margin-top: 0%;
+    }
+
+}
+
+@media(max-width: 984px) {
+    .description span {
+        left: -220px;
+    }
+    .description h1 {
+        left: -144px;
+        top: -18px;
+    }
+
+
+}
+@media(max-width: 767px){
+
+    .icon {
+        margin-left: 20%;
+    }
+
+    .btn {
+        margin: 23px -27px 0px 16px;
+        font-size: 15px;
+    }
+    .description span {
+        left: -288px;
+        position: absolute;
+        top: -159px;
+        font-size: 53px;
+    }
+    .description h1 {
+        left: -267px;
+        top: -103px;
+        font-size: 23px;
+    }
+    .midbar ul li {
+        padding: 15px 0px 8px 0px;
+    }
+    .midbar ul li a{
+        font-size: 13px;
+    }
+
+
+
+}
+@media(max-width: 320px){
+    .topbar ul li a{
+        padding: 5px;
+        font-size: 13px;
+    }
+    .midbar ul li a{
+        padding: 5px;
+        font-size: 13px;
+    }
+    .footer ul li {
+        padding: 6px;
+        font-size: 16px;
+    }
+
+    .footer .text {
+        margin-left: -10%;
+        margin-bottom: -7%;
+    }
+
+    .icon .fa{
+        font-size: 30px;
+    }
+
+    .icon ul li{
+        padding: 3px;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    .icon {
+        margin-left: -2%;
+        margin-top: 0%;
+    }
+
+    .footer {
+        background-color: black;
+        height: 130px;
+    }
+    .btn {
+        margin: 23px -27px 0px 16px;
+        font-size: 15px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
